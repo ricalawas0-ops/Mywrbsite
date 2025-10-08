@@ -1,0 +1,130 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff0f6;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+    background: #fff0f6;
+    padding: 18px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #ffb6f9;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  nav a {
+    color: #5a3d85;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    color: #ff6fd8;
+  }
+  nav i {
+    margin-right: 6px;
+    color: #ff6fd8;
+  }
+section {
+  padding: 100px 40px 40px;
+  text-align: center;
+}
+
+.Maps h1 {
+  font-size: 28px;
+  color: #a18cd1;
+  margin-bottom: 20px;
+}
+
+.Maps img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.Maps img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+section p {
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Municipalities list */
+.mun {
+  list-style: none;
+  padding: 0;
+  margin: 30px auto;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  padding: 25px;
+  text-align: left;
+}
+
+.mun h2 {
+  text-align: center;
+  color: #ff6fd8;
+  margin-bottom: 20px;
+}
+
+.mun li {
+  margin: 10px 0;
+}
+
+.mun a {
+  text-decoration: none;
+  color: #a18cd1;
+  font-weight: 500;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.mun a:hover {
+  color: #ff6fd8;
+  padding-left: 5px;
+}
+
+.FooterOne {
+  background: linear-gradient(135deg, #a18cd1, #ff6fd8);
+  padding: 15px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.FooterOne footer {
+  font-size: 14px;
+}
+.quote-box {
+  width: 280px;
+  margin: 10px auto;
+  padding: 20px;
+  background: white;
+  border-left: 6px solid #d63384;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+.quote-box p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
